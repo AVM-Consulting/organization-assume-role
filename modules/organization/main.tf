@@ -12,7 +12,7 @@ resource "aws_iam_group_policy" "iam_assume_role_group_policy" {
 
   policy = <<EOF
 {
-    "Version": "2018-10-17",
+    "Version": "2017-10-17",
     "Statement": [
         {
             "Effect": "Allow",
