@@ -29,7 +29,7 @@ Apply terraform plan
       -var "iam_group=$IAM_GROUP"\
       -var "source_account_id=$SOURCE_ACCOUNT_ID"\
       -var "target_account_id=$TARGET_ACCOUNT_ID"\
-      -var "target_account_role=Organization"
+      -var "target_account_role=OrganizationAccountAccessRole"
 
 ## Inputs
 
