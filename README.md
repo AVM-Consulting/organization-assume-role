@@ -1,4 +1,4 @@
-## org-assume
+## organization-assume-role 
 After creating an account in the organization, follow the following steps to grant access to a group in the root account.
 
     export AWS_DEFAULT_REGION=us-east-1
