@@ -35,8 +35,8 @@ Apply terraform plan
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| iam_group | The AWS groups allowed to assume rile into | string | `Admin` | no |
-| profile | AWS profile | string | - | yes |
+| iam_group | The source AWS group allowed to assume role into | string | `Admin` | no |
+| profile | AWS profile for source account | string | - | yes |
 | region | AWS region | string | `us-east-1` | no |
 | source_account_id | The AWS accounts from where can assume role into | string | - | yes |
 | target_account_id | The AWS accounts we can assume role into | string | - | yes |
